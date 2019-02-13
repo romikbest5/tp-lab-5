@@ -30,8 +30,7 @@ add_library(task1_lib ${SRC_FILES})
 add_executable(task1 ${PROJECT_SOURCE_DIR}/src/main.cpp )
 
 
-add_library(task1_lib ${SRC_FILES})
-add_executable(task1 ${PROJECT_SOURCE_DIR}/src/main.cpp)
+
 
 target_link_libraries(task1 task1_lib)
 
