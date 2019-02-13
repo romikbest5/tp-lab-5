@@ -1,6 +1,7 @@
 #include "Deanery.cpp"
 #include <iostream>
 #include <ctime>
+
 using namespace std;
 
 int main(){
@@ -8,16 +9,19 @@ int main(){
     Deanery deanery;
 
     // Загрузка и создание группы 1
+
     Group * group1 = deanery.createGroup ("17ПМИ");
     string filenameGroup1 = "../data/group1.txt";
     deanery.loadGroupFromFile(filenameGroup1, group1);
 
     // Загрузка и создание группы 2
+
     Group * group2 = deanery.createGroup ("17ПИ");
     string filenameGroup2 = "../data/group2.txt";
     deanery.loadGroupFromFile(filenameGroup2, group2);
 
     // Загрузка студентов
+
     string filenameGroup3 = "../data/group3.txt";
     deanery.loadStudentsFromFile (filenameGroup3);
 
@@ -35,12 +39,9 @@ int main(){
 
     srand (time(nullptr));
 
-    for (int i = 0; i < 10; i++) {
-
+    for (int i = 0; i < 10; i++)
         for (auto student : deanery.students)
             deanery.setMark(student, {to_string(i).append("Subject"), rand() % 10 + 1});
-
-    }
 
     // Отчисление студентов с неудовлетворительным средним баллом
 
