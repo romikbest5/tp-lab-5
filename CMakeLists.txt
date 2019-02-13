@@ -18,19 +18,22 @@ include_directories(${COMMON_INCLUDES})
 file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
-set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/student.cpp)
-set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/group.cpp)
-set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/deanery.cpp)
-set(CMAKE_CXX_STANDARD 11)
+set(SRC_FILES ${PROJECT_SOURCE_DIR}/src/deanery.cpp
+              ${PROJECT_SOURCE_DIR}/src/student.cpp
+              ${PROJECT_SOURCE_DIR}/src/group.cpp)
 
-add_library(task5_lib ${SRC_FILES1} include/Student.h)
-add_library(task5_lib ${SRC_FILES1} include/Group.h)
-add_library(task5_lib ${SRC_FILES1} include/Deanery.h)
+set(CMAKE_CXX_STANDARD 11)
+add_library(task1_lib ${SRC_FILES})
+#add_library(task1_lib ${SRC_FILES} include/Student.h)
+#add_library(task1_lib ${SRC_FILES} include/Group.h)
+#add_library(task1_lib ${SRC_FILES} include/Deanery.h)
 add_executable(task1 ${PROJECT_SOURCE_DIR}/src/main.cpp )
 
 
-target_link_libraries(task1 task5_lib)
+add_library(task1_lib ${SRC_FILES})
+add_executable(task1 ${PROJECT_SOURCE_DIR}/src/main.cpp)
 
+target_link_libraries(task1 task1_lib)
 
 ################################
 # Testing
@@ -58,7 +61,8 @@ if (BUILD_TESTS)
   target_link_libraries(runUnitTests gtest gtest_main)
 
   # Extra linking for the project.
-  target_link_libraries(runUnitTests task5_lib)
+  target_link_libraries(runUnitTests task1_lib)
+
   # This is so you can do 'make test' to see all your tests run, instead of
   # manually running the executable runUnitTests to see those specific tests.
   add_test(UnitTests runUnitTests)
@@ -75,4 +79,5 @@ if (BUILD_TESTS)
 
 
 endif()
+
 
