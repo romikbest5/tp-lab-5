@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	
+	/*
 	Deanery IMIKN("students.txt");
 	IMIKN.printStatics();
 	string name = "Perkins Steven";
@@ -15,5 +15,6 @@ int main()
 	IMIKN.reelection();
 	IMIKN.updateData("studentsUpdate.txt");
 	IMIKN.printStatics();
+	*/
 	system("pause");
 }
