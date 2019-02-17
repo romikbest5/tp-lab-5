@@ -1,5 +1,6 @@
 #include <vector>
 #include<string>
+#include<cstring>
 #include "Deanery.h"
 ifstream FileStudents("students.txt");
 ifstream FileGroups("groups.txt");
