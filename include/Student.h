@@ -3,7 +3,6 @@
 
 #include <vector>
 #include <iostream>
-#include <QString>
 #include <string>
 #include <fstream>
 
