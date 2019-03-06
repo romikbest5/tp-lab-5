@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 # Make PROJECT_SOURCE_DIR, PROJECT_BINARY_DIR, and PROJECT_NAME available.
-set(PROJECT_NAME task1) 
+set(PROJECT_NAME task1)
 project(${PROJECT_NAME})
 
 set(CMAKE_CXX_FLAGS "-g -Wall")
@@ -18,16 +18,17 @@ include_directories(${COMMON_INCLUDES})
 file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
-set(SRC_FILES ${PROJECT_SOURCE_DIR}/src/dean.cpp
-              ${PROJECT_SOURCE_DIR}/src/student.cpp
-              ${PROJECT_SOURCE_DIR}/src/group.cpp)
-
+set(SOURCE_EXE ${PROJECT_SOURCE_DIR}/src/main.cpp)
+set(SOURCE_LIB ${PROJECT_SOURCE_DIR}/src/lab5_lib.cpp)
 set(CMAKE_CXX_STANDARD 11)
 
-add_library(task1_lib ${SRC_FILES})
-add_executable(task1 ${PROJECT_SOURCE_DIR}/src/main.cpp)
+#add_library(task1_lib ${SRC_FILES1})
+#add_library(task2_lib ${SRC_FILES2})
+#add_library(task3_lib ${SRC_FILES3})
 
-target_link_libraries(task1 task1_lib)
+add_executable(lab5 ${SOURCE_EXE})
+add_library(lab5_lib STATIC ${SOURCE_LIB})
+target_link_libraries(lab5 lab5_lib)
 
 ################################
 # Testing
