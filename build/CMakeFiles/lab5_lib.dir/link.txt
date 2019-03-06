@@ -1,2 +1,0 @@
-"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe" qc liblab5_lib.a  CMakeFiles/lab5_lib.dir/src/lab5_lib.cpp.obj
-"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ranlib.exe" liblab5_lib.a

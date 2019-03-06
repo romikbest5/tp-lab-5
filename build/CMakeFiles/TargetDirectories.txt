@@ -1,4 +1,0 @@
-D:/gitprojects/tp-lab-5/build/CMakeFiles/lab5_lib.dir
-D:/gitprojects/tp-lab-5/build/CMakeFiles/lab5.dir
-D:/gitprojects/tp-lab-5/build/CMakeFiles/edit_cache.dir
-D:/gitprojects/tp-lab-5/build/CMakeFiles/rebuild_cache.dir
