@@ -8,6 +8,8 @@
 #include <fstream> 
 using namespace std;
 
+class Group;
+
 class Student {
 	friend class Group;
 	friend class Deanery;
