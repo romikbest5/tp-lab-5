@@ -5,7 +5,7 @@
 #include <ctime>
 #include <algorithm>
 #include <fstream> 
-#include "Classes.h"
+#include "../include/Classes.h"
 using namespace std;
 
 //////////////// class Student //////////////
@@ -81,7 +81,7 @@ Student * Group::searchId(int idSt) {
 	}
 }
 
-float Group::averageGroup() {					//среднее по группе 
+float Group::averageGroup() {					//Г±Г°ГҐГ¤Г­ГҐГҐ ГЇГ® ГЈГ°ГіГЇГЇГҐ 
 	float sum = 0, aver;
 	for (int i = 0; i < num; i++) {
 		sum += students[i]->averageMark();
@@ -90,7 +90,7 @@ float Group::averageGroup() {					//среднее по группе
 	return round(aver * 10) / 10;
 }
 
-void Group::deductFio(string fioSt) {			//отчисление студента по фио
+void Group::deductFio(string fioSt) {			//Г®ГІГ·ГЁГ±Г«ГҐГ­ГЁГҐ Г±ГІГіГ¤ГҐГ­ГІГ  ГЇГ® ГґГЁГ®
 	for (int i = 0; i < num; i++) {
 		if (students[i]->fio == fioSt) {
 			if (students[i] == head) {
@@ -108,7 +108,7 @@ void Group::deductFio(string fioSt) {			//отчисление студента по фио
 	}
 }
 
-void Group::deductId(int idSt) {				//отчисление по id
+void Group::deductId(int idSt) {				//Г®ГІГ·ГЁГ±Г«ГҐГ­ГЁГҐ ГЇГ® id
 	for (int i = 0; i < num; i++) {
 		if (students[i]->id == idSt) {
 			if (students[i] == head) {
