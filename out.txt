@@ -1,0 +1,77 @@
+PMI1
+average mark in group: 4
+id: 1 fio: Zachary Justin Gray average mark: 4
+id: 5 fio: James Xavier Ross average mark: 4
+id: 7 fio: Juan Bryan Flores average mark: 5
+id: 8 fio: Mason Sebastian Sanders average mark: 4
+id: 10 fio: Jeremiah Hayden Powell average mark: 5
+id: 11 fio: Ian Jacob Green average mark: 5
+id: 12 fio: Jack Blake Wright average mark: 5
+id: 13 fio: Jacob Thomas Hill average mark: 4
+id: 15 fio: Luke Angel Rodriguez average mark: 4
+id: 16 fio: Lauren Sofia Phillips average mark: 5
+id: 17 fio: Rachel Jessica Gray average mark: 5
+id: 19 fio: Victoria Maria Morris average mark: 5
+id: 20 fio: Gabriella Sophia Wright average mark: 4
+id: 21 fio: Alexandra Kaylee Barnes average mark: 5
+id: 22 fio: Paige Madeline Ross average mark: 4
+id: 25 fio: Destiny Alyssa Martinez average mark: 4
+id: 26 fio: Jordan Vanessa Walker average mark: 4
+id: 27 fio: Isabella Vanessa Edwards average mark: 5
+id: 29 fio: Victoria Michelle Clark average mark: 4
+id: 30 fio: Emma Rebecca Richardson average mark: 4
+
+PMI2
+average mark in group: 4
+id: 32 fio: Xavier Cody Bennett average mark: 4
+id: 33 fio: Samuel Julian Wilson average mark: 4
+id: 34 fio: Sean Bryan Edwards average mark: 4
+id: 35 fio: Colin Daniel Campbell average mark: 4
+id: 40 fio: Ethan Colin Jenkins average mark: 5
+id: 41 fio: Jesse Ryan Griffin average mark: 5
+id: 43 fio: Samuel Adam Turner average mark: 5
+id: 44 fio: Jose Adrian Moore average mark: 5
+id: 48 fio: Audrey Natalie Henderson average mark: 4
+id: 49 fio: Brooke Katelyn Jones average mark: 4
+id: 50 fio: Sara Hailey Hayes average mark: 5
+id: 53 fio: Danielle Audrey Edwards average mark: 7
+id: 54 fio: Lauren Leah Price average mark: 6
+id: 57 fio: Kylie Trinity Bennett average mark: 4
+id: 58 fio: Angelina Gabrielle Jones average mark: 4
+id: 59 fio: Ariana Marissa Hughes average mark: 4
+id: 60 fio: Maya Julia Johnson average mark: 4
+
+PMI3
+average mark in group: 4
+id: 61 fio: Trinity Chloe Jones average mark: 4
+id: 62 fio: Riley Alyssa Sanders average mark: 4
+id: 63 fio: Amia Grace Long average mark: 4
+id: 64 fio: Anna Brooke Clark average mark: 4
+id: 65 fio: Audrey Lauren Wright average mark: 4
+id: 66 fio: Diana Haley Robinson average mark: 4
+id: 67 fio: Megan Maya Brown average mark: 3
+id: 68 fio: Zoe Maya Gonzalez average mark: 4
+id: 69 fio: Alyssa Trinity Moore average mark: 4
+id: 70 fio: Evelyn Leslie Price average mark: 4
+id: 71 fio: Arianna Lillian Cook average mark: 4
+id: 72 fio: Isabel Melissa Barnes average mark: 4
+id: 73 fio: Evelyn Rachel Morgan average mark: 4
+id: 74 fio: Faith Allison Washington average mark: 5
+id: 75 fio: Maria Brooke Morgan average mark: 4
+id: 76 fio: Kevin Noah Long average mark: 4
+id: 77 fio: Dominic Jackson Miller average mark: 6
+id: 78 fio: Daniel Adrian Reed average mark: 4
+id: 79 fio: Daniel Zachary Rodriguez average mark: 5
+id: 80 fio: Luis Juan Powell average mark: 6
+id: 81 fio: Jose Benjamin Rivera average mark: 5
+id: 82 fio: Aaron Richard Jackson average mark: 4
+id: 83 fio: Aidan Jayden Sanders average mark: 5
+id: 84 fio: Eric Nathan Torres average mark: 2
+id: 85 fio: Joshua Nicholas Anderson average mark: 5
+id: 86 fio: Carter Mason Nelson average mark: 4
+id: 87 fio: Sean Jesse Davis average mark: 4
+id: 88 fio: Jordan Michael Cook average mark: 4
+id: 89 fio: Jose Jacob Sanders average mark: 4
+id: 90 fio: Cody Landon Smith average mark: 3
+id: 31 fio: Gavin Diego Peterson average mark: 5
+
