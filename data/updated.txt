@@ -1,0 +1,30 @@
+group PMI1, head: 4)Sammy Caldwell
+1 Rosa Wilkerson 5 3 5 4 2 
+2 Woodrow Strickland 3 3 4 5 4 
+3 Courtney Romero 5 5 4 2 4 
+4 Sammy Caldwell 2 2 5 2 5 
+5 Belinda Gibbs 3 4 4 4 5 
+6 Dorothy Russell 5 5 3 4 4 
+7 Lloyd Tucker 4 3 5 3 2 
+8 Darin Newton 5 4 3 3 3 
+9 Sheila Gonzales 5 2 3 4 2 
+10 Luis Garrett 5 4 3 4 5 
+group PMI2, head: 13)Viola Simpson
+11 George Pope 2 2 3 4 4 
+13 Viola Simpson 5 2 3 4 3 
+14 Bruce Peterson 3 3 2 5 4 
+15 Mildred Schmidt 3 4 5 4 2 
+16 Craig Cross 5 4 5 2 2 
+18 Stacey Cooper 4 5 2 2 2 
+19 Jessie Bowen 2 5 2 4 4 
+20 James Bass 4 5 5 4 4 
+21 Albert Bates 4 5 3 3 4 
+group PMI3, head: 28)Josephine Walsh
+23 Philip Rice 2 4 3 3 3 
+24 Terrance Moore 2 5 2 3 5 
+25 Kirk Burton 3 3 5 3 5 
+26 Pat Mccarthy 3 5 5 2 3 
+27 Lowell Goodman 3 4 3 4 5 
+28 Josephine Walsh 5 2 2 5 2 
+29 Kristy Tyler 3 5 5 4 2 
+17 Ernesto Roy 4 2 2 5 5 
