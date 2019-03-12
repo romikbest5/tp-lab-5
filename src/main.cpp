@@ -1,16 +1,14 @@
-#include "gtest/gtest.h"
+#include<iostream>
 #include<random>
 #include<string>
+using namespace std;
 #include "Student.h"
 #include "Deanery.h"
 #include "Group.h"
-
-
-//task1 ON/OFF
-TEST(lab5,task1_1)
+int main()
 {
 	setlocale(LC_ALL, "rus");
-	Student a(38, "Р‘РµР·СѓС…РѕРІ Р’Р»Р°РґРёРјРёСЂ РђР»РµРєСЃРµРµРІРёС‡");
+	Student a(38, "Безухов Владимир Алексеевич");
 
 	Group H("New");
 	random_device ran;
@@ -22,11 +20,8 @@ TEST(lab5,task1_1)
 	H.AddStudent(&a, &H);
 	H.AverageInGroup();
 	H.HeadElection();
-}
 
-TEST(lab5,task1_2)
-{
-	setlocale(LC_ALL, "rus");
+
 	Deanery dean;
 	for (int i = 0; i < 30; i++)
 	{
@@ -43,8 +38,10 @@ TEST(lab5,task1_2)
 	dean.ChooseHeads();
 	dean.StudentDeduction();
 	dean.GetStatistic("12");
-	dean.StudentTransferToGroup(12, "РџРњР");
+	dean.StudentTransferToGroup(12, "ПМИ");
 	dean.GetStatistic("12");
-	dean.GetStatistic("РџРњР");
+	dean.GetStatistic("ПМИ");
 	dean.SaveDataInFiles();
+	system("pause");
+	return 0;
 }
