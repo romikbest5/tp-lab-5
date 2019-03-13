@@ -258,3 +258,11 @@ void Deanery::start_elections(){
     groups[i]->elect_head();
   }
 }
+//for testing purposes:
+void Deanery::pushgroup(Group * _group){
+  groups.push_back(_group);
+}
+
+void Deanery::pushstudent(Student * _student){
+  students.push_back(_student);
+}

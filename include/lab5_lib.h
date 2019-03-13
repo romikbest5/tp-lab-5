@@ -43,7 +43,7 @@ private:
   std::vector<Student*> students;
   std::vector<Group*> groups;
 public:
-  Deanery(Group * _group);
+  Deanery(Group * _group);//for testing purposes
   Deanery(std::string _path);
   void console_output();
   void add_marks(int num);
@@ -53,4 +53,7 @@ public:
   unsigned int expell_unsuccesfull(double limit);
   bool update_files(std::string _path);
   void start_elections();
+  //for testing purposes:
+  void pushgroup(Group * _group);
+  void pushstudent(Student * _student);
 };

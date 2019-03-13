@@ -39,7 +39,7 @@ TEST(lab5, test5){
 TEST(lab5, test6){
   Student * student = new Student(1, "Foo Bar");
   for (int i = 0; i < 5; i++){
-    student.add_mark(5);
+    student->add_mark(5);
   }
   Group group("a_group");
   group.add_student(student);
@@ -78,8 +78,8 @@ TEST(lab5, test11){
   Group * group2 = new Group("group2");
   group1->add_student(student1);
   Deanery dean(group1);
-  dean.groups.push_back(group2);
-  dean.students.push_back(student1);
+  dean.pushgroup(group2);
+  dean.pushstudent(student1);
   EXPECT_EQ(true, dean.transfer("Foo Bar", "group2"));
 }
 
