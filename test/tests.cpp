@@ -90,8 +90,8 @@ TEST(lab5, test12){
   EXPECT_EQ(exp, dean.expell_unsuccesfull(1));
 }
 
-TEST(lab5, test13){
+/*TEST(lab5, test13){
   Group * group1 = new Group("group1");
   Deanery dean(group1);
   EXPECT_FALSE(dean.update_files("abc"));
-}
+}*/
