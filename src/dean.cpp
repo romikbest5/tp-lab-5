@@ -5,91 +5,6 @@
 #include <algorithm>
 #include <ctime>
 
-//Class Student
-
-Student::Student(int nid, string name) {
-	id = nid;
-	fio = name;
-}
-
-void Student::enterGroup(Group * group) {
-	this->group = group;
-	
-}
-
-void Student::addMark(int mark) {
-	marks.push_back(mark);
-	num = marks.size();
-}
-
-float Student::averageMark() {
-	int sum = 0;
-	for (int i = 0; i < num; i++) {
-		sum += marks[i];
-	}
-	return sum / num;
-}
-
-//Class Croup
- 
-Group::Group(string name) {
-	title = name;
-}
-
-void Group::addStudent(Student * Groupmember) {
-	
-	students.push_back(Groupmember);
-	num = students.size();
-	
-}
-
-Student * Group::electHead() {
-	int i = rand() % (num - 1) + 0;
-	head = students[i];
-	return students[i];
-}
-
-Student* Group::searchSfio(string name) {
-	for (int i = 0; i < num; i++) {
-		if(students[i]->fio==name){
-			return students[i];
-		}
-	}
-}
-
-Student* Group::searchSid(int numid) {
-	for (int i = 0; i < num; i++) {
-		if (students[i]->id == numid) {
-			return students[i];
-		}
-	}
-}
-
-float Group::averageGroup() {
-	int sum=0;
-	for (int i = 0; i < num; i++) {
-		sum += students[i]->averageMark();
-	}
-	return sum / num;
-}
-
-void Group::exceptionStudent(string name) {
-	for (int i = 0; i < num; i++) {
-		if (students[i]->fio == name) {
-			if (students[i] == head) {
-				students.erase(students.begin() + i);
-				num--;
-				electHead();
-			}
-			else {
-				students.erase(students.begin() + i);
-				num--;
-			}
-		}
-	}
-}
-
-
 //Class Deanery
 
 Deanery::Deanery(string NameStudents,string NameGroups) {
@@ -124,8 +39,8 @@ void Deanery::CreateGroups() {
 	int numinGr = numSt / numGr;  //number in group = number of students/number og groups
 	for (int i = 0; i < numGr; i++) {        //distribution in groups
 		for (int j = i*numinGr; j < (i+1)*numinGr; j++) {
-			students[j]->enterGroup(groups[i]); //Á‡˜ËÒÎÂÌËÂ ‚ „ÛÔÔÛ
-			groups[i]->addStudent(students[j]);    //‰Ó·‡ÎÎÂÌËÂ ÒÚÛ‰ÂÌÚ‡ ‚ „ÛÔÔÛ
+			students[j]->enterGroup(groups[i]); //–∑–∞—á–∏—Å–ª–µ–Ω–∏–µ –≤ –≥—Ä—É–ø–ø—É
+			groups[i]->addStudent(students[j]);    //–¥–æ–±–∞–ª–ª–µ–Ω–∏–µ —Å—Ç—É–¥–µ–Ω—Ç–∞ –≤ –≥—Ä—É–ø–ø—É
 		}
 	}
 	int extraSt = numSt % numGr;
@@ -210,8 +125,8 @@ void Deanery::update(string name) { //writing updated data to file
 	{
 		file <<"Number students is  "<<numSt<<endl;
 		for (int i = 0; i < numGr; i++) {
-			file << "¬ " << groups[i]->title<<" "<<groups[i]->num<<" ˜ÂÎÓ‚ÂÍ. "<<" —Â‰ÌËÈ ·‡ÎÎ ÔÓ „ÛÔÔÂ "<<groups[i]->averageGroup()<<endl;
-			file << "—Ú‡ÓÒÚ‡ „ÛÔÔ˚ " << groups[i]->head->fio << endl;
+			file << "–í " << groups[i]->title<<" "<<groups[i]->num<<" —á–µ–ª–æ–≤–µ–∫. "<<" –°—Ä–µ–¥–Ω–∏–π –±–∞–ª–ª –ø–æ –≥—Ä—É–ø–ø–µ "<<groups[i]->averageGroup()<<endl;
+			file << "–°—Ç–∞—Ä–æ—Å—Ç–∞ –≥—Ä—É–ø–ø—ã " << groups[i]->head->fio << endl;
 			for (int j = 0; j < groups[i]->students.size(); j++) {
 				file << groups[i]->students[j]->fio<<"-"<<groups[i]->students[j]->averageMark()<<"   ";
 				for (int h = 0; h < groups[i]->students[j]->marks.size(); h++) {
@@ -228,8 +143,8 @@ void Deanery::printinfo() {
 	cout << "Number students is  " << numSt << endl;
 	
 	for (int i = 0; i < numGr; i++) {
-		cout << "¬ " << groups[i]->title << " " << groups[i]->num << " ˜ÂÎÓ‚ÂÍ. " << " —Â‰ÌËÈ ·‡ÎÎ ÔÓ „ÛÔÔÂ " << groups[i]->averageGroup() << endl;
-		cout << "—Ú‡ÓÒÚ‡ „ÛÔÔ˚ "<<groups[i]->head->fio<<endl;
+		cout << "–í " << groups[i]->title << " " << groups[i]->num << " —á–µ–ª–æ–≤–µ–∫. " << " –°—Ä–µ–¥–Ω–∏–π –±–∞–ª–ª –ø–æ –≥—Ä—É–ø–ø–µ " << groups[i]->averageGroup() << endl;
+		cout << "–°—Ç–∞—Ä–æ—Å—Ç–∞ –≥—Ä—É–ø–ø—ã "<<groups[i]->head->fio<<endl;
 		for (int j = 0; j < groups[i]->students.size(); j++) {
 			cout << groups[i]->students[j]->fio << "-" << groups[i]->students[j]->averageMark()<<"    ";
 			for (int h = 0; h < groups[i]->students[j]->marks.size(); h++) {
