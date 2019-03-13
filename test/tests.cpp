@@ -37,7 +37,7 @@ TEST(lab5, test5){
 }
 
 TEST(lab5, test6){
-  Student student(1, "Foo Bar");
+  Student * student = new Student(1, "Foo Bar");
   for (int i = 0; i < 5; i++){
     student.add_mark(5);
   }
@@ -63,7 +63,7 @@ TEST(lab5, test8){
 TEST(lab5, test9){
   Group * agroup = new Group("a_group");
   Deanery dean(agroup);
-  EXPECT_EQ(agroup, dean.findGroup(agroup->title));
+  EXPECT_EQ(agroup, dean.findGroup("a_group"));
 }
 
 TEST(lab5, test10){
@@ -76,10 +76,10 @@ TEST(lab5, test11){
   Student * student1 = new Student(1, "Foo Bar");
   Group * group1 = new Group("group1");
   Group * group2 = new Group("group2");
-  group1.add_student(student1);
+  group1->add_student(student1);
   Deanery dean(group1);
-  dean->groups.push_back(group2);
-  dean->students.push_back(student1);
+  dean.groups.push_back(group2);
+  dean.students.push_back(student1);
   EXPECT_EQ(true, dean.transfer("Foo Bar", "group2"));
 }
 
