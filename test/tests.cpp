@@ -51,13 +51,13 @@ TEST(lab5, test7){
   Student * student = new Student(1, "Foo Bar");
   Group group("a_group");
   group.add_student(student);
-  EXPECT_EQ(true, group.expell(student));
+  EXPECT_TRUE(group.expell(student));
 }
 
 TEST(lab5, test8){
   Student * student = new Student(1, "Foo Bar");
   Group group("a_group");
-  EXPECT_EQ(false, group.expell(student));
+  EXPECT_FALSE(group.expell(student));
 }
 
 TEST(lab5, test9){
@@ -80,7 +80,7 @@ TEST(lab5, test11){
   Deanery dean(group1);
   dean.pushgroup(group2);
   dean.pushstudent(student1);
-  EXPECT_EQ(true, dean.transfer("Foo Bar", "group2"));
+  EXPECT_TRUE(dean.transfer("Foo Bar", "group2"));
 }
 
 TEST(lab5, test12){
@@ -93,5 +93,5 @@ TEST(lab5, test12){
 TEST(lab5, test13){
   Group * group1 = new Group("group1");
   Deanery dean(group1);
-  EXPECT_EQ(false, dean.update_files("abc"));
+  EXPECT_FALSE(dean.update_files("abc"));
 }
