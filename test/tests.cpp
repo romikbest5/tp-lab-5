@@ -11,7 +11,7 @@ TEST(lab5, test1){
 }
 
 TEST(lab5, test2){
-  Student student(1, "Foo Bar");
+  student = new Student(1, "Foo Bar");
   Group group("a_group");
   group.add_student(student);
   EXPECT_EQ(student, group.elect_head());
@@ -23,14 +23,14 @@ TEST(lab5, test3){
 }
 
 TEST(lab5, test4){
-  Student student(1, "Foo Bar");
+  student = new Student(1, "Foo Bar");
   Group group("a_group");
   group.add_student(student);
   EXPECT_EQ(student, group.search_student(1));
 }
 
 TEST(lab5, test5){
-  Student student(1, "Foo Bar");
+  student = new Student(1, "Foo Bar");
   Group group("a_group");
   group.add_student(student);
   EXPECT_EQ(nullptr, group.search_student(2));
@@ -48,50 +48,50 @@ TEST(lab5, test6){
 }
 
 TEST(lab5, test7){
-  Student student(1, "Foo Bar");
+  student = new Student(1, "Foo Bar");
   Group group("a_group");
   group.add_student(student);
   EXPECT_EQ(true, group.expell(student));
 }
 
 TEST(lab5, test8){
-  Student student(1, "Foo Bar");
+  student = new Student(1, "Foo Bar");
   Group group("a_group");
   EXPECT_EQ(false, group.expell(student));
 }
 
 TEST(lab5, test9){
-  Group agroup("a_group");
+  agroup = new Group("a_group");
   Deanery dean(agroup);
   EXPECT_EQ(agroup, dean.findGroup(agroup->title));
 }
 
 TEST(lab5, test10){
-  Group agroup("a_group");
+  agroup = new Group("a_group");
   Deanery dean(agroup);
   EXPECT_EQ(nullptr, dean.findGroup("foo"));
 }
 
 TEST(lab5, test11){
-  Student student1(1, "Foo Bar");
-  Group group1("group1");
-  Group group2("group2");
+  student1 = new Student(1, "Foo Bar");
+  group1 = new Group("group1");
+  group2 = new Group("group2");
   group1.add_student(student1);
   Deanery dean(group1);
   dean->groups.push_back(group2);
-  dean->students.push_back(student);
+  dean->students.push_back(student1);
   EXPECT_EQ(true, dean.transfer("Foo Bar", "group2"));
 }
 
 TEST(lab5, test12){
-  Group group1("group1");
+  group1 = new Group("group1");
   Deanery dean(group1);
   unsigned int exp = 0;
   EXPECT_EQ(exp, dean.expell_unsuccesfull(1));
 }
 
 TEST(lab5, test13){
-  Group group1("group1");
+  group1 = new Group("group1");
   Deanery dean(group1);
   EXPECT_EQ(false, dean.update_files("abc"));
 }
