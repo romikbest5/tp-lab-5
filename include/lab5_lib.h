@@ -43,7 +43,7 @@ private:
   std::vector<Student*> students;
   std::vector<Group*> groups;
 public:
-  Deanery();
+  Deanery(Group * _group);
   Deanery(std::string _path);
   void console_output();
   void add_marks(int num);
