@@ -7,7 +7,7 @@ public:
 	Deanery();//create groups from data from file
 	void addMark(int number); 
 	void statistics();
-	void replace(Student& st, Group& gr_to);
+	string replace(Student& st, Group& gr_to);
 	void elimination();
 	void save();
 	void choiseHead();

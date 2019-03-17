@@ -9,9 +9,10 @@ void Group::addStudent(Student* student)
 	students.push_back(student);
 	num++;
 }
-void Group::choiseHead(Student* student)
+string Group::choiseHead(Student* student)
 {
 	head = student;
+	return head->fio;
 }
 Student* Group::search(int _id, string _fio) 
 {
@@ -34,7 +35,7 @@ double Group::groupAverage()
 
 	return average;
 }
-void Group::elimination(Student* student) 
+int Group::elimination(Student* student) 
 {
 	for (int i = 0; i < num; i++) {
 		if (student == students[i]) {
@@ -44,4 +45,5 @@ void Group::elimination(Student* student)
 	}
 	student->group = nullptr;
 	num--;
+	return num;
 }

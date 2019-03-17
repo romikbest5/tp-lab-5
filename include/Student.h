@@ -13,7 +13,7 @@ public:
 	Group* group;
 	int id; 
 	Student(int _id, string _fio);
-	void enrollment(Group& _group); 
+	string enrollment(Group& _group); 
 	void addMark(int mark);
 	double average();
 	friend Group;

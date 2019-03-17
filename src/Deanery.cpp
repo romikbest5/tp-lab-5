@@ -53,10 +53,11 @@ void Deanery::statistics()
 		}
 	}
 }
-void Deanery::replace(Student& st, Group& gr_to)
+string Deanery::replace(Student& st, Group& gr_to)
 {
 	st.group->elimination(&st);
 	st.enrollment(gr_to);
+	return st.group->title;
 }
 void Deanery::elimination()
 {

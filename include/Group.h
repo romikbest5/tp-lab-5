@@ -8,9 +8,9 @@ private:
 public:
 	Group(string _title);
 	void addStudent(Student* student);
-	void choiseHead(Student* student);
+	string choiseHead(Student* student);
 	Student* search(int _id, string _fio);
 	double groupAverage();
-	void elimination(Student* student);
+	int elimination(Student* student);
 	friend Deanery;
 };

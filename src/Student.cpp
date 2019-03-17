@@ -20,7 +20,8 @@ double Student::average()
 	averageMark = averageMark /num;
 	return averageMark;
 };
-void Student::enrollment(Group& _group)
+string Student::enrollment(Group& _group)
 {
 	_group.addStudent(this);
+	return this->group->title;
 }
