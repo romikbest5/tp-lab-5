@@ -7,7 +7,7 @@ bool operator==(Student& st1, Student& st2)
 Deanery::Deanery(){
 	string groupName;
 	string fio;
-	ifstream in("../groups.txt"); 
+	ifstream in("../data/groups.txt"); 
 	if (in.is_open()) 
 	{	
 		//title for groups
