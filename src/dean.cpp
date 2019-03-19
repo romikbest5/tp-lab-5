@@ -38,7 +38,7 @@ void Deanery::make_studentslist_from_file() {
                 }
 
         }
-        id_from_file = stoi(id_from_file);
-
+        int id_fromfile = stoi(id_from_file);
+        students_list.push_back(new Student(id_fromfile,fio_from_file));
         }
 }

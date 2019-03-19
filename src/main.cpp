@@ -8,6 +8,10 @@
 
 int main()
 {
+
+
+    Deanery Fimikn;
+
     Student Slavutin(1,"Slavutin Alexander");
     Student Spavutin(2,"Spavutin Alexander");
     Student Saavutin(3,"Saavutin Alexander");
@@ -24,5 +28,6 @@ int main()
     first.add_student(&Slavutin,&first);
     first.student_elimination(1);
     cout<<first.student_search(3);
+
 
 }
