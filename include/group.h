@@ -9,9 +9,6 @@
 
 using namespace std;
 
-class Student;
-class Deanery;
-
 class Group{
 private:
     string title;

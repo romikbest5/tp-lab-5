@@ -15,7 +15,7 @@ class Deanery;
 class Student{
 private:
     int id;
-
+    string fio;
     vector <unsigned int> marks;
     int num;
     Group* group;
@@ -28,5 +28,5 @@ public:
     void add_mark(unsigned int  mark);
     friend Group;
     friend Deanery;
-    string fio;
+
 };

@@ -8,10 +8,10 @@
 
 int main()
 {
-    Student Slavutin(01,"Slavutin Alexander");
-    Student Spavutin(02,"Spavutin Alexander");
-    Student Saavutin(03,"Saavutin Alexander");
-    Student Sdavutin(04,"Sdavutin Alexander");
+    Student Slavutin(1,"Slavutin Alexander");
+    Student Spavutin(2,"Spavutin Alexander");
+    Student Saavutin(3,"Saavutin Alexander");
+    Student Sdavutin(4,"Sdavutin Alexander");
     Slavutin.add_mark(7);
     Spavutin.add_mark(6);
     Sdavutin.add_mark(10);
@@ -22,12 +22,7 @@ int main()
     first.add_student(&Spavutin,&first);
     first.add_student(&Sdavutin,&first);
     first.add_student(&Slavutin,&first);
-    cout << first.get_average_group_mark();
-
-
-
-
-
-
+    first.student_elimination(1);
+    cout<<first.student_search(3);
 
 }
