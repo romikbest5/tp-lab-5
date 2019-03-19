@@ -16,21 +16,21 @@ class Student
 	friend class Deanery;
 
 private:
-	int id; //идентификационный номер
-	string fio; //фамилия и инициалы
-	Group * group; //ссылка на группу (объект Group)
-	vector<int> marks; //массив оценок
-	int num; //количество оценок
+	int id; //РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+	string fio; //С„Р°РјРёР»РёСЏ Рё РёРЅРёС†РёР°Р»С‹
+	Group * group; //СЃСЃС‹Р»РєР° РЅР° РіСЂСѓРїРїСѓ (РѕР±СЉРµРєС‚ Group)
+	vector<int> marks; //РјР°СЃСЃРёРІ РѕС†РµРЅРѕРє
+	int num; //РєРѕР»РёС‡РµСЃС‚РІРѕ РѕС†РµРЅРѕРє
 
 public:
-	Student(int, string);//создание студента с указанием ИД и ФИО
-	void addMark(unsigned int);//добавление оценки
-	float midMark();//вычисление средней оценки
-	string getFio();//получить ФИО
-	int getid();//получить ID
-	vector<int> getMarks();//получить оценки
-	void GroupEnter(Group *group);//зачисление в группу
-	Group * getGroup();//получить группу
+	Student(int, string);//СЃРѕР·РґР°РЅРёРµ СЃС‚СѓРґРµРЅС‚Р° СЃ СѓРєР°Р·Р°РЅРёРµРј РР” Рё Р¤РРћ
+	void addMark(unsigned int);//РґРѕР±Р°РІР»РµРЅРёРµ РѕС†РµРЅРєРё
+	float midMark();//РІС‹С‡РёСЃР»РµРЅРёРµ СЃСЂРµРґРЅРµР№ РѕС†РµРЅРєРё
+	string getFio();//РїРѕР»СѓС‡РёС‚СЊ Р¤РРћ
+	int getid();//РїРѕР»СѓС‡РёС‚СЊ ID
+	vector<int> getMarks();//РїРѕР»СѓС‡РёС‚СЊ РѕС†РµРЅРєРё
+	void GroupEnter(Group *group);//Р·Р°С‡РёСЃР»РµРЅРёРµ РІ РіСЂСѓРїРїСѓ
+	Group * getGroup();//РїРѕР»СѓС‡РёС‚СЊ РіСЂСѓРїРїСѓ
 };
 
 
@@ -38,20 +38,20 @@ class Group {
 	friend class Deanery;
 
 private:
-	string title; //название группы
-	vector<Student *> students; //массив из ссылок на студентов
-	Student * head; //ссылка на старосту (из членов группы)
-	int num; //количество студентов в группе
+	string title; //РЅР°Р·РІР°РЅРёРµ РіСЂСѓРїРїС‹
+	vector<Student *> students; //РјР°СЃСЃРёРІ РёР· СЃСЃС‹Р»РѕРє РЅР° СЃС‚СѓРґРµРЅС‚РѕРІ
+	Student * head; //СЃСЃС‹Р»РєР° РЅР° СЃС‚Р°СЂРѕСЃС‚Сѓ (РёР· С‡Р»РµРЅРѕРІ РіСЂСѓРїРїС‹)
+	int num; //РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СѓРґРµРЅС‚РѕРІ РІ РіСЂСѓРїРїРµ
 
 public:
-	Group(string);//создание группы с указанием названия
-	void addStudent(Student *);//добавление студента
-	Student * electionHead();//избрание старосты
-	Student * searchFio(string);//поиск студента по ФИО
-	Student * searchId(int);//поиск студента по ИД
-	float averageGroup();//вычисление соеднего балла в группе
-	void deductFio(string);//исключение студента из группы
-	void deductId(int);//исключение студента из группы
+	Group(string);//СЃРѕР·РґР°РЅРёРµ РіСЂСѓРїРїС‹ СЃ СѓРєР°Р·Р°РЅРёРµРј РЅР°Р·РІР°РЅРёСЏ
+	void addStudent(Student *);//РґРѕР±Р°РІР»РµРЅРёРµ СЃС‚СѓРґРµРЅС‚Р°
+	Student * electionHead();//РёР·Р±СЂР°РЅРёРµ СЃС‚Р°СЂРѕСЃС‚С‹
+	Student * searchFio(string);//РїРѕРёСЃРє СЃС‚СѓРґРµРЅС‚Р° РїРѕ Р¤РРћ
+	Student * searchId(int);//РїРѕРёСЃРє СЃС‚СѓРґРµРЅС‚Р° РїРѕ РР”
+	float averageGroup();//РІС‹С‡РёСЃР»РµРЅРёРµ СЃРѕРµРґРЅРµРіРѕ Р±Р°Р»Р»Р° РІ РіСЂСѓРїРїРµ
+	void deductFio(string);//РёСЃРєР»СЋС‡РµРЅРёРµ СЃС‚СѓРґРµРЅС‚Р° РёР· РіСЂСѓРїРїС‹
+	void deductId(int);//РёСЃРєР»СЋС‡РµРЅРёРµ СЃС‚СѓРґРµРЅС‚Р° РёР· РіСЂСѓРїРїС‹
 };
 
 
@@ -59,22 +59,22 @@ public:
 class Deanery {
 private:
 	string fileStudent, fileGroup;
-	vector<Student *> students;//массив студентов
-	vector<Group *> groups;//массив групп
+	vector<Student *> students;//РјР°СЃСЃРёРІ СЃС‚СѓРґРµРЅС‚РѕРІ
+	vector<Group *> groups;//РјР°СЃСЃРёРІ РіСЂСѓРїРї
 	int numStudent, numGroup;
 
 public:
 	Deanery(string, string);
-	void CreateGroup(); //создание групп на основе данных из файла
-	void CreateStudent();//создание студентов на основе данных из файла
-	void addRandomMarks();//добавление случайных оценок студентам
-	vector<pair<float, string>> getStatisticStudents();//получение статистики по успеваемости студентов
-	vector<pair<float, string>> getStatisticGroup();//получение статистики по успеваемости групп
-	Student * searchFio(string);//поиск студента по имени
-	Group * searchGroup(string);//поиск группы
-	void changeGroup(string, string);//перевод студентов из группы в группу
-	void Studentdeduction();//отчисление студентов за неуспеваемость
-	void electionGroupHead();//инициация выборов старост в группах
-	void print();//вывод данных на консоль
-	void printFile();//сохранение обновленных данных в файлах
+	void CreateGroup(); //СЃРѕР·РґР°РЅРёРµ РіСЂСѓРїРї РЅР° РѕСЃРЅРѕРІРµ РґР°РЅРЅС‹С… РёР· С„Р°Р№Р»Р°
+	void CreateStudent();//СЃРѕР·РґР°РЅРёРµ СЃС‚СѓРґРµРЅС‚РѕРІ РЅР° РѕСЃРЅРѕРІРµ РґР°РЅРЅС‹С… РёР· С„Р°Р№Р»Р°
+	void addRandomMarks();//РґРѕР±Р°РІР»РµРЅРёРµ СЃР»СѓС‡Р°Р№РЅС‹С… РѕС†РµРЅРѕРє СЃС‚СѓРґРµРЅС‚Р°Рј
+	vector<pair<float, string>> getStatisticStudents();//РїРѕР»СѓС‡РµРЅРёРµ СЃС‚Р°С‚РёСЃС‚РёРєРё РїРѕ СѓСЃРїРµРІР°РµРјРѕСЃС‚Рё СЃС‚СѓРґРµРЅС‚РѕРІ
+	vector<pair<float, string>> getStatisticGroup();//РїРѕР»СѓС‡РµРЅРёРµ СЃС‚Р°С‚РёСЃС‚РёРєРё РїРѕ СѓСЃРїРµРІР°РµРјРѕСЃС‚Рё РіСЂСѓРїРї
+	Student * searchFio(string);//РїРѕРёСЃРє СЃС‚СѓРґРµРЅС‚Р° РїРѕ РёРјРµРЅРё
+	Group * searchGroup(string);//РїРѕРёСЃРє РіСЂСѓРїРїС‹
+	void changeGroup(string, string);//РїРµСЂРµРІРѕРґ СЃС‚СѓРґРµРЅС‚РѕРІ РёР· РіСЂСѓРїРїС‹ РІ РіСЂСѓРїРїСѓ
+	void Studentdeduction();//РѕС‚С‡РёСЃР»РµРЅРёРµ СЃС‚СѓРґРµРЅС‚РѕРІ Р·Р° РЅРµСѓСЃРїРµРІР°РµРјРѕСЃС‚СЊ
+	void electionGroupHead();//РёРЅРёС†РёР°С†РёСЏ РІС‹Р±РѕСЂРѕРІ СЃС‚Р°СЂРѕСЃС‚ РІ РіСЂСѓРїРїР°С…
+	void print();//РІС‹РІРѕРґ РґР°РЅРЅС‹С… РЅР° РєРѕРЅСЃРѕР»СЊ
+	void printFile();//СЃРѕС…СЂР°РЅРµРЅРёРµ РѕР±РЅРѕРІР»РµРЅРЅС‹С… РґР°РЅРЅС‹С… РІ С„Р°Р№Р»Р°С…
 };
