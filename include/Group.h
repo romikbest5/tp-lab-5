@@ -12,5 +12,6 @@ public:
 	Student* search(int _id, string _fio);
 	double groupAverage();
 	int elimination(Student* student);
+	friend Student;
 	friend Deanery;
 };

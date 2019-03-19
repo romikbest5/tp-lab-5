@@ -2,6 +2,7 @@
 Group::Group(string _title)
 {
 	title = _title;
+	num=0;
 }
 void Group::addStudent(Student* student) 
 {
