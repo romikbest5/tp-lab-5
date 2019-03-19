@@ -1,23 +1,18 @@
-#include <iostream>
-#include "Group.h"
-#include "Student.h"
-#include "Deanery.h"
+#include "lab5.h"
+
+using namespace std;
+
 int main()
 {
-
-	Deanery d;
-	d.createStudents(90);               //read data for students from file
-	d.createGroups(3);                  //create 3 groups of 30 people
-	//expell twonesses from two groups
-	d.expell("PMI1");
-	d.expell("PMI2");
-
-	d.transfer(31, "PMI2", "PMI3");     //movement student
-
-	d.election();                       //election in every group
-
-	d.getInfo();                        //deanery stat
-	d.writeToFile();                    //write new data
-
-	return 0;
+	
+	Deanery IMIKN("students.txt");
+	IMIKN.printStatics();
+	string name = "Perkins Steven";
+	string title = "PI";
+	IMIKN.transfer(name, IMIKN.searchGroup(title));
+	IMIKN.checkProgress(3.0);
+	IMIKN.reelection();
+	IMIKN.updateData("studentsUpdate.txt");
+	IMIKN.printStatics();
+	system("pause");
 }
