@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 # Make PROJECT_SOURCE_DIR, PROJECT_BINARY_DIR, and PROJECT_NAME available.
-set(PROJECT_NAME task1) 
+set(PROJECT_NAME task1)
 project(${PROJECT_NAME})
 
 set(CMAKE_CXX_FLAGS "-g -Wall")
@@ -17,15 +17,15 @@ set(COMMON_INCLUDES ${PROJECT_SOURCE_DIR}/include)
 include_directories(${COMMON_INCLUDES})
 file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
-
-set(SRC_FILES             ${PROJECT_SOURCE_DIR}/src/main.cpp)
+set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main.cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_library(task1_lib ${SRC_FILES})
-add_executable(task1 ${PROJECT_SOURCE_DIR}/src/main.cpp)
+#add_library(task1_lib ${SRC_FILES1})
 
-target_link_libraries(task1 task1_lib)
+add_executable(task1 ${SRC_FILES1})
+
+#target_link_libraries(task1 task1_lib)
 
 ################################
 # Testing
@@ -53,7 +53,7 @@ if (BUILD_TESTS)
   target_link_libraries(runUnitTests gtest gtest_main)
 
   # Extra linking for the project.
-  target_link_libraries(runUnitTests task1_lib)
+  #target_link_libraries(runUnitTests task1_lib task2_lib task3_lib)
 
   # This is so you can do 'make test' to see all your tests run, instead of
   # manually running the executable runUnitTests to see those specific tests.
