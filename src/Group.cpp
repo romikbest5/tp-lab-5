@@ -1,79 +1,79 @@
 #include "Group.h"
 
-Group::Group(string& title, unsigned int num=0): title(title), num(num)
+Group::Group(string title): title(title)
 {
     head = nullptr;
 }
 
-bool Group::AddStudentToGroup(Student& _student)
+bool Group::AddStudentToGroup(Student* _student)
 {
-    if (_student.group == nullptr)
+    if (_student->getGroup() == nullptr)
     {
-        _student.group = this;
-        students.push_back(&_student);
-        num++;
-        cout << _student.fio << " was added into " << title << endl; //Just for checking
+        _student->EnrollToGroup(this);
+        students.push_back(_student);
+        return true;
     }
-    else
-    {
-        cout << _student.fio << " is already in " << title << endl;
-    }
+    return false;
 }
 
 Student* Group::ChooseHead()
 {
-    if (num > 0)
+    if (students.size() > 0)
     {
         mt19937 new_head(time(NULL));
-        head = students[new_head()%num];
-        cout << head->fio << " was chosen " << title << "'s head" << endl; //Just for checking
+        head = students[new_head()%students.size()];
         return head;
     }
-    else
-        cout << "Nobody is in the group " << title << endl;
     return nullptr;
 
 }
 
 Student* Group::FindStudent(string _fio)
 {
-    for (int i = 0; i < num; i++)
+    for (Student* student:students)
     {
-        if (students[i]->fio == _fio)
-            return students[i];
+        if (student->getFio() == _fio)
+            return student;
     }
-    std::cout << "There is no " << _fio << " in " << this->title << " !" << std::endl; //Just for checking
+    return nullptr;
+}
+
+Student* Group::FindStudent(int _id)
+{
+    for (Student* student:students)
+    {
+        if (student->getId() == _id)
+            return student;
+    }
     return nullptr;
 }
 
 float Group::AverageInGroup()
 {
     float average(0);
-    if (num > 0)
+    if (students.size() > 0)
     {
-        for (int i = 0; i < num; i++)
+        for (Student* student:students)
         {
-            average += students[i]->AverageMark();
+            average += student->AverageMark();
         }
-        return (average/num);
+        return (average/students.size());
     }
     else
-        return 0    ;
+        return 0;
 
 }
 
-bool Group::ExcludeStudent(Student& _student)
+bool Group::ExcludeStudent(Student* _student)
 {
-    if (_student.group == this)
+    if (students.size() > 0 && _student->getGroup() == this)
     {
-        for (int i = 0; i < num; i++)
+        for (int i = 0; i < students.size(); i++)
         {
-            if (_student.fio == students[i]->fio)
+            if (_student->getFio() == students[i]->getFio())
             {
-                cout << _student.fio << " was excluded" << endl;
                 students.erase(students.begin() + i);
-                num--;
-                if (&_student == head)
+                if (_student == head)
                 {
                     ChooseHead();
                 }
@@ -81,10 +81,20 @@ bool Group::ExcludeStudent(Student& _student)
             }
         }
     }
-    else
-    {
-        cout << _student.fio << " is not in this group" << endl;
-        return false;
-    }
+return false;
+}
 
+vector<Student*>* Group::getStudents()
+{
+    return &students;
+}
+
+string Group::getTitle()
+{
+    return title;
+}
+
+Student* Group::getHead()
+{
+    return head;
 }

@@ -18,15 +18,17 @@ include_directories(${COMMON_INCLUDES})
 file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
-set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main.cpp src/Student.cpp src/Group.cpp src/Deanery.cpp)
+set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/Student.cpp
+               ${PROJECT_SOURCE_DIR}/src/Group.cpp
+               ${PROJECT_SOURCE_DIR}/src/Deanery.cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-#add_library(task1_lib ${SRC_FILES1})
+add_library(task1_lib ${SRC_FILES1})
 
-add_executable(task1 ${SRC_FILES1})
+add_executable(task1 ${PROJECT_SOURCE_DIR}/src/main.cpp)
 
-#target_link_libraries(task1 task1_lib)
+target_link_libraries(task1 task1_lib)
 
 ################################
 # Testing

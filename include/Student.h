@@ -14,13 +14,13 @@ private:
     string fio;
     Group* group;
     vector <unsigned int> marks;
-    unsigned int num;
 public:
-    Student(unsigned int, string&, unsigned);
+    Student(unsigned int, string);
     void EnrollToGroup(Group*);
     void AddMark(unsigned int);
     float AverageMark();
-friend Group;
-//friend Deanery;
+    string getFio();
+    Group* getGroup();
+    unsigned getId();
 };
 #endif //TP_LAB_5_STUDENT_H
