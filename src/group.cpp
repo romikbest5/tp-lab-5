@@ -56,7 +56,8 @@ void Group::student_elimination(int id) {
     for (int i = 0; i < num; i++) {
         if (students_list[i]->id == id)
         {
-            students_list.erase(students_list.begin() + i);
+            students_list.erase(students_list.begin() + i); // iterator position(begin is the iteratir which is pointing
+                                                            //of the first element of the vector) plus shift
             num--;
 
         }
