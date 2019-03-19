@@ -48,6 +48,7 @@ TEST(Group, Group_search)
 //tests for class Deanery
 TEST(Deanery, Deanery_replace)
 {
-	Deanery IMIKN;
+	ifstream in("../data/groups.txt");
+	Deanery IMIKN(in);
 	EXPECT_EQ("15PMI",IMIKN.replace(*IMIKN.students[0], *IMIKN.groups[2]));
 }

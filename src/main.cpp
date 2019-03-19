@@ -15,12 +15,14 @@ int main() {
 	P.choiseHead(&A);
 	P.elimination(&A);
 	//tests for class Deanery
-	Deanery IM;
+	ifstream in("../data/groups.txt");
+	Deanery IM(in);
 	IM.addMark(10);
 	IM.elimination();
 	IM.choiseHead();
 	IM.replace(*IM.students[0], *IM.groups[2]);
-	IM.save();
+	ofstream out("../data/data_about_groups.txt");
+	IM.save(out);
 	IM.consoleOutput();
 	system("pause");
 	return 0;

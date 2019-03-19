@@ -4,10 +4,9 @@ bool operator==(Student& st1, Student& st2)
 	if ((st1.id == st2.id) && (st1.fio == st2.fio))return true;
 	else return false;
 }
-Deanery::Deanery(){
+Deanery::Deanery(ifstream& in){
 	string groupName;
 	string fio;
-	ifstream in("../groups.txt"); 
 	if (in.is_open()) 
 	{	
 		//title for groups
@@ -73,10 +72,8 @@ void Deanery::elimination()
 	}
 	return;
 }
-void Deanery::save()
-{
-	ofstream out;
-	out.open("../data.txt"); 
+void Deanery::save(ofstream& out)
+{ 
 	if (out.is_open())
 	{
 		out << "Information about students:" << endl;
