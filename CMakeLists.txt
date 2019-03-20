@@ -19,7 +19,7 @@ file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
 set(SRC_FILES ${PROJECT_SOURCE_DIR}/src/task.cpp
-            
+set(SRC_FILES ${PROJECT_SOURCE_DIR}/src/main.cpp            
               
 set(CMAKE_CXX_STANDARD 11)
 
