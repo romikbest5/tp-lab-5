@@ -1,4 +1,4 @@
-#include "task.h"
+#include "lab5.h"
 
 
 Student::Student(int id_, string fio_){
@@ -208,7 +208,7 @@ void Deanery::print_info() {
 	cout << "Number students is  " << num_st << endl;
 
 	for (int i = 0; i < num_gr; i++) {
-		cout << "In " << groups[i]->title << " " << groups[i]->num << " people. " << " The averade groups markå " << groups[i]->group_average() << endl;
+		cout << "In " << groups[i]->title << " " << groups[i]->num << " people. " << " The averade groups markÃ¥ " << groups[i]->group_average() << endl;
 		cout << "Head: " << groups[i]->head->fio << endl;
 		for (int j = 0; j < groups[i]->students.size(); j++) {
 			cout << groups[i]->students[j]->fio << "-" << groups[i]->students[j]->student_average() << "    ";
