@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../include/student.h"
+#include "../include/Student.h"
 
 /* ====== [Метод: создание студента с указанием ИД и ФИО] ====== */
 void Student::create(int id, string fio)

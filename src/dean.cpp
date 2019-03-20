@@ -3,7 +3,7 @@
 #include <cstring>
 #include <ctime>
 
-#include "../include/dean.h"
+#include "../include/Deanery.h"
 
 /* =============== [Метод: создать студента, считав из файла] =============== */
 bool Deanery::createStudentsFromFile()

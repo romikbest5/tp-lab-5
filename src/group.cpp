@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../include/group.h"
+#include "../include/Group.h"
 
 /* ====== [Метод: создание группы с указанием названия] ====== */
 void Group::create(string title)

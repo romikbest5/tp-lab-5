@@ -3,9 +3,9 @@
 
 using namespace std;
 
-#include "../include/student.h"
-#include "../include/dean.h"
-#include "../include/group.h"
+#include "../include/Student.h"
+#include "../include/Deanery.h"
+#include "../include/Group.h"
 
 int main()
 {
