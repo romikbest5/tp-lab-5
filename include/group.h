@@ -18,7 +18,7 @@ private:
     Student *head;
 public:
     Group(string title);
-    void add_student(Student*, Group*);
+    void add_student(Student*);
     Student* choose_head();
     Student* student_search(int id);
     float get_average_group_mark();

@@ -19,10 +19,13 @@ class Deanery{
 private:
     vector <Student *> students_list;
     vector <Group*> groups_list;
+    unsigned int num_of_students;
 public:
-    void make_studentslist_from_file();
-    void make_group_fromfile();
-
-
-
+    Deanery();
+    void make_students_list_from_file(string filename);
+    void make_group_fromfile(const string& filename);
+    void add_random_mark();
+    void choose_head();
+    void student_exclude();
+    void get_statistic(string something);
 };

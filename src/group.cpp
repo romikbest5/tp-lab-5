@@ -16,10 +16,10 @@ void Group::make_new_group(string title)
     this->title = title;
 }
 
-void Group::add_student(Student* student, Group* group)
+void Group::add_student(Student* student)
 {
     students_list.push_back(student);
-    students_list.back()->student_enrollment(group); // back() is the reference to the last element of the vector
+    students_list.back()->student_enrollment(this); // back() is the reference to the last element of the vector
     num++;
 }
 
@@ -54,12 +54,10 @@ Student* Group::student_search(int id)
 
 void Group::student_elimination(int id) {
     for (int i = 0; i < num; i++) {
-        if (students_list[i]->id == id)
-        {
+        if (students_list[i]->id == id) {
             students_list.erase(students_list.begin() + i); // iterator position(begin is the iteratir which is pointing
-                                                            //of the first element of the vector) plus shift
+            //of the first element of the vector) plus shift
             num--;
-
         }
     }
 }
