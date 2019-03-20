@@ -1,0 +1,44 @@
+
+GROUP TITLE: 17ПМИ-1
+HEAD: Пыхтина Клара Сократовна
+
+ID: 5 FIO: Кимаск Рубен Андроникович Average Mark: 6.25 Group: 17ПМИ-1
+ID: 12 FIO: Янкилевский Григорий Изяславович Average Mark: 6.25 Group: 17ПМИ-1
+ID: 13 FIO: Аюшиев Фока Мечиславович Average Mark: 5.625 Group: 17ПМИ-1
+ID: 17 FIO: Кадцын Феликс Мирославович Average Mark: 4 Group: 17ПМИ-1
+ID: 29 FIO: Пыхтина Клара Сократовна Average Mark: 5.125 Group: 17ПМИ-1
+ID: 31 FIO: Усоева Татьяна Брониславовна Average Mark: 5.125 Group: 17ПМИ-1
+ID: 33 FIO: Ванина Рада Назаровна Average Mark: 5.75 Group: 17ПМИ-1
+ID: 35 FIO: Пургина Вера Федоровна Average Mark: 6.625 Group: 17ПМИ-1
+AVERAGE IN GROUP: 5.59375
+
+GROUP TITLE: 17ПМИ-2
+HEAD: Грош Моисей Онуфриевич
+
+ID: 4 FIO: Половов Панкратий Кириллович Average Mark: 5.125 Group: 17ПМИ-2
+ID: 7 FIO: Тимирязев Эдуард Игнатиевич Average Mark: 6.5 Group: 17ПМИ-2
+ID: 8 FIO: Трактирников Ипатий Евгениевич Average Mark: 5.625 Group: 17ПМИ-2
+ID: 14 FIO: Грош Моисей Онуфриевич Average Mark: 6 Group: 17ПМИ-2
+ID: 34 FIO: Ящина Юнона Валерьевна Average Mark: 5.875 Group: 17ПМИ-2
+AVERAGE IN GROUP: 5.825
+
+GROUP TITLE: 17ПМИ-3
+HEAD: Романенко Прохор Тихонович
+
+ID: 0 FIO: Эвентов Аким Глебович Average Mark: 5.75 Group: 17ПМИ-3
+ID: 2 FIO: Осинцев Феофан Никонович Average Mark: 6.125 Group: 17ПМИ-3
+ID: 10 FIO: Романенко Прохор Тихонович Average Mark: 6.25 Group: 17ПМИ-3
+ID: 11 FIO: Шилов Ульян Савелиевич Average Mark: 6.75 Group: 17ПМИ-3
+ID: 15 FIO: Авдеев Никанор Артемович Average Mark: 5.875 Group: 17ПМИ-3
+ID: 18 FIO: Сазонов Измаил Ираклиевич Average Mark: 6.125 Group: 17ПМИ-3
+ID: 20 FIO: Зощенко Артур Иванович Average Mark: 5.875 Group: 17ПМИ-3
+ID: 22 FIO: Пожарский Олег Самуилович Average Mark: 5.125 Group: 17ПМИ-3
+ID: 23 FIO: Фламина Любава Василиевна Average Mark: 7.25 Group: 17ПМИ-3
+ID: 25 FIO: Ухова Валерия Артеименовна Average Mark: 6.25 Group: 17ПМИ-3
+ID: 27 FIO: Язвецова Ульяна Самуиловна Average Mark: 6.375 Group: 17ПМИ-3
+ID: 32 FIO: Мазаева Ольга Богдановна Average Mark: 6 Group: 17ПМИ-3
+ID: 37 FIO: Саввина Алиса Юлиевна Average Mark: 7 Group: 17ПМИ-3
+ID: 1 FIO: Яманов Эрнст Архипович Average Mark: 6.75 Group: 17ПМИ-3
+AVERAGE IN GROUP: 6.25
+AMOUNT OF STUDENTS: 27
+
