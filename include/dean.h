@@ -11,6 +11,7 @@
 #include <fstream>
 #include "student.h"
 #include "group.h"
+enum STATES  {COMPLETED, FAILED};
 
 using namespace std;
 
@@ -22,10 +23,14 @@ private:
     unsigned int num_of_students;
 public:
     Deanery();
-    void make_students_list_from_file(string filename);
+    STATES  state;
+    void make_students_list_from_file(const string& filename);
     void make_group_fromfile(const string& filename);
     void add_random_mark();
     void choose_head();
     void student_exclude();
-    void get_statistic(string something);
+    void get_statistic(ostream* stream);
+    STATES student_transfer(int id, string title);
+    void save_data_to_file();
+    STATES getState();
 };

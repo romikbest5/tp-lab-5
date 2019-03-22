@@ -14,7 +14,7 @@ class Group{
 private:
     string title;
     vector <Student *> students_list;
-    int num;
+    int num; // amount of student
     Student *head;
 public:
     Group(string title);
