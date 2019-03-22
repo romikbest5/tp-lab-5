@@ -4,6 +4,7 @@
 
 TEST(,test1)
 {
+    Deanery Fimikn;
     Fimikn.make_students_list_from_file("../src/students.txt");
     Fimikn.make_group_fromfile("../src/groups.txt");
     Fimikn.add_random_mark();
