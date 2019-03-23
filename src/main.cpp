@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-
+/*
 	Deanery deanery("Students.txt", "Groups.txt");
 	deanery.create_students();
 	deanery.create_groups();
@@ -18,7 +18,8 @@ int main()
 	deanery.get_statistics("Statistics.txt");
 	deanery.update("Data.txt");
 	deanery.print_info();
-
+*/
 	system("pause");
-	return 0x0000;
+	return 0;
+
 }
