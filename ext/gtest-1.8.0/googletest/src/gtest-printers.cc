@@ -66,7 +66,7 @@ void PrintByteSegmentInObjectTo(const unsigned char* obj_bytes, size_t start,
   for (size_t i = 0; i != count; i++) {
     const size_t j = start + i;
     if (i != 0) {
-      // Organizes the bytes into groups of 2 for easy parsing by
+      // Organizes the bytes into groups.txt of 2 for easy parsing by
       // human.
       if ((j % 2) == 0)
         *os << ' ';
