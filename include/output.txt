@@ -1,0 +1,380 @@
+ID: 2 -- Каипов Яков Богданович
+Number of marks: 6
+Marks: 2 3 5 1 5 5 
+Average Mark: 3.5
+Group :PMI
+ID: 3 -- Державин Фока Серафимович
+Number of marks: 6
+Marks: 4 4 3 5 1 1 
+Average Mark: 3
+Group :PMI
+ID: 5 -- Дьяченко Осип Сидорович
+Number of marks: 6
+Marks: 3 2 2 5 3 4 
+Average Mark: 3.16667
+Group :PMI
+ID: 6 -- Живков Эмиль Андреевич
+Number of marks: 6
+Marks: 3 3 2 2 4 1 
+Average Mark: 2.5
+Group :PMI
+ID: 7 -- Шагидзянов Афанасий Мирославович
+Number of marks: 6
+Marks: 3 2 2 4 5 3 
+Average Mark: 3.16667
+Group :PMI
+ID: 8 -- Шлиппенбах Анатолий Адамович
+Number of marks: 6
+Marks: 3 5 1 5 4 2 
+Average Mark: 3.33333
+Group :PMI
+ID: 9 -- Куваев Михаил Евграфович
+Number of marks: 6
+Marks: 3 4 4 5 2 2 
+Average Mark: 3.33333
+Group :PMI
+ID: 10 -- Асланов Михей Мечиславович
+Number of marks: 6
+Marks: 4 4 3 5 3 3 
+Average Mark: 3.66667
+Group :PMI
+ID: 11 -- Казакевич Архип Венедиктович
+Number of marks: 6
+Marks: 3 5 4 2 5 4 
+Average Mark: 3.83333
+Group :PMI
+ID: 13 -- Яковенко Ким Проклович
+Number of marks: 6
+Marks: 1 3 5 4 2 1 
+Average Mark: 2.66667
+Group :PMI
+ID: 15 -- Бобрик Антон Тимурович
+Number of marks: 6
+Marks: 4 4 5 4 5 5 
+Average Mark: 4.5
+Group :PMI
+ID: 17 -- Шапцев Илья Еремеевич
+Number of marks: 6
+Marks: 5 5 2 4 3 4 
+Average Mark: 3.83333
+Group :PMI
+ID: 18 -- Рытов Самсон Моисеевич
+Number of marks: 6
+Marks: 4 3 5 2 4 1 
+Average Mark: 3.16667
+Group :PMI
+ID: 19 -- Желваков Алексей Анатолиевич
+Number of marks: 6
+Marks: 5 4 5 1 3 2 
+Average Mark: 3.33333
+Group :PMI
+ID: 20 -- Яппаров Потап Ерофеевич
+Number of marks: 6
+Marks: 4 2 2 1 5 3 
+Average Mark: 2.83333
+Group :PMI
+ID: 21 -- Мирохин Аскольд Егорович
+Number of marks: 6
+Marks: 1 5 3 4 3 3 
+Average Mark: 3.16667
+Group :PMI
+ID: 24 -- Яговкин Феоктист Фролович
+Number of marks: 6
+Marks: 2 5 2 1 3 2 
+Average Mark: 2.5
+Group :PMI
+ID: 25 -- Никишин Всеволод Наумович
+Number of marks: 6
+Marks: 3 3 3 3 4 4 
+Average Mark: 3.33333
+Group :PMI
+ID: 26 -- Чапаев Наум Елисеевич
+Number of marks: 6
+Marks: 1 5 5 4 2 4 
+Average Mark: 3.5
+Group :PMI
+ID: 27 -- Апраксин Аристарх Леонович
+Number of marks: 6
+Marks: 3 2 2 1 4 4 
+Average Mark: 2.66667
+Group :PMI
+ID: 29 -- Кичеев Панкратий Дмитриевич
+Number of marks: 6
+Marks: 5 3 4 4 1 2 
+Average Mark: 3.16667
+Group :PMI
+ID: 31 -- Илюшкин Филимон Агапович
+Number of marks: 6
+Marks: 2 2 4 5 4 5 
+Average Mark: 3.66667
+Group :PMI
+ID: 32 -- Эйлер Карп Фомевич
+Number of marks: 6
+Marks: 2 5 4 5 4 4 
+Average Mark: 4
+Group :PI
+ID: 33 -- Мандрыкин Константин Иннокентиевич
+Number of marks: 6
+Marks: 1 4 3 3 4 4 
+Average Mark: 3.16667
+Group :PI
+ID: 34 -- Шульц Кондратий Глебович
+Number of marks: 6
+Marks: 4 4 3 2 1 3 
+Average Mark: 2.83333
+Group :PI
+ID: 35 -- Шихранов Дементий Касьянович
+Number of marks: 6
+Marks: 4 5 5 2 1 2 
+Average Mark: 3.16667
+Group :PI
+ID: 36 -- Пугачёв Даниил Герасимович
+Number of marks: 6
+Marks: 1 5 5 2 4 4 
+Average Mark: 3.5
+Group :PI
+ID: 37 -- Тяпичев Александр Кириллович
+Number of marks: 6
+Marks: 5 4 5 5 5 3 
+Average Mark: 4.5
+Group :PI
+ID: 38 -- Серов Герман Капитонович
+Number of marks: 6
+Marks: 1 1 4 4 4 3 
+Average Mark: 2.83333
+Group :PI
+ID: 39 -- Казьмин Юлий Прохорович
+Number of marks: 6
+Marks: 5 4 4 1 4 4 
+Average Mark: 3.66667
+Group :PI
+ID: 40 -- Фотин Тарас Панкратиевич
+Number of marks: 6
+Marks: 1 2 4 2 5 4 
+Average Mark: 3
+Group :PI
+ID: 41 -- Щекочихин Иосиф Назарович
+Number of marks: 6
+Marks: 5 3 3 3 4 3 
+Average Mark: 3.5
+Group :PI
+ID: 42 -- Закревский Адам Григориевич
+Number of marks: 6
+Marks: 4 5 1 3 4 2 
+Average Mark: 3.16667
+Group :PI
+ID: 43 -- Кольцов Евгений Севастьянович
+Number of marks: 6
+Marks: 1 4 2 2 3 5 
+Average Mark: 2.83333
+Group :PI
+ID: 44 -- Грушецкий Дмитрий Игнатиевич
+Number of marks: 6
+Marks: 3 1 4 2 3 2 
+Average Mark: 2.5
+Group :PI
+ID: 45 -- Чупров Ираклий Остапович
+Number of marks: 6
+Marks: 1 4 5 3 5 2 
+Average Mark: 3.33333
+Group :PI
+ID: 46 -- Шишков Карл Измаилович
+Number of marks: 6
+Marks: 2 4 3 2 2 5 
+Average Mark: 3
+Group :PI
+ID: 47 -- Коньяков Захар Ефремович
+Number of marks: 6
+Marks: 3 2 3 5 1 3 
+Average Mark: 2.83333
+Group :PI
+ID: 48 -- Хованский Гаврила Иванович
+Number of marks: 6
+Marks: 1 1 4 5 2 4 
+Average Mark: 2.83333
+Group :PI
+ID: 49 -- Кандаков Владилен Вадимович
+Number of marks: 6
+Marks: 2 5 1 4 3 1 
+Average Mark: 2.66667
+Group :PI
+ID: 50 -- Молодых Савелий Андроникович
+Number of marks: 6
+Marks: 3 1 4 2 3 3 
+Average Mark: 2.66667
+Group :PI
+ID: 51 -- Мусорин Евграф Феоктистович
+Number of marks: 6
+Marks: 3 3 5 5 2 5 
+Average Mark: 3.83333
+Group :PI
+ID: 52 -- Кучеров Павел Климентович
+Number of marks: 6
+Marks: 2 5 4 3 1 1 
+Average Mark: 2.66667
+Group :PI
+ID: 53 -- Ябуров Максимильян Михаилович
+Number of marks: 6
+Marks: 5 5 2 3 1 1 
+Average Mark: 2.83333
+Group :PI
+ID: 54 -- Бокарёв Юлиан Давыдович
+Number of marks: 6
+Marks: 4 4 5 4 5 2 
+Average Mark: 4
+Group :PI
+ID: 55 -- Ярков Самуил Данилевич
+Number of marks: 6
+Marks: 3 5 5 3 2 5 
+Average Mark: 3.83333
+Group :PI
+ID: 57 -- Сафронов Роман Самсонович
+Number of marks: 6
+Marks: 4 3 1 5 5 2 
+Average Mark: 3.33333
+Group :PI
+ID: 58 -- Квасов Венедикт Зиновиевич
+Number of marks: 6
+Marks: 2 2 2 4 4 1 
+Average Mark: 2.5
+Group :PI
+ID: 59 -- Николаенко Матвей Александрович
+Number of marks: 6
+Marks: 1 4 3 4 3 1 
+Average Mark: 2.66667
+Group :PI
+ID: 60 -- Крупин Сергей Тарасович
+Number of marks: 6
+Marks: 4 2 2 4 2 3 
+Average Mark: 2.83333
+Group :PI
+ID: 61 -- Кариев Мирослав Кондратович
+Number of marks: 6
+Marks: 2 5 2 3 5 2 
+Average Mark: 3.16667
+Group :PI
+ID: 62 -- Бурмакин Емельян Георгиевич
+Number of marks: 6
+Marks: 1 1 4 2 5 5 
+Average Mark: 3
+Group :BI
+ID: 63 -- Ягужинский Степан Федорович
+Number of marks: 6
+Marks: 3 5 4 5 5 1 
+Average Mark: 3.83333
+Group :BI
+ID: 64 -- Овсов Станислав Архипович
+Number of marks: 6
+Marks: 1 5 2 4 5 3 
+Average Mark: 3.33333
+Group :BI
+ID: 65 -- Вергунов Агап Валерьянович
+Number of marks: 6
+Marks: 4 4 3 1 4 2 
+Average Mark: 3
+Group :BI
+ID: 66 -- Горюнов Руслан Демьянович
+Number of marks: 6
+Marks: 3 1 3 5 5 5 
+Average Mark: 3.66667
+Group :BI
+ID: 67 -- Рубанов Аркадий Маркович
+Number of marks: 6
+Marks: 5 5 3 5 4 1 
+Average Mark: 3.83333
+Group :BI
+ID: 68 -- Костиков Семен Онуфриевич
+Number of marks: 6
+Marks: 3 3 4 3 4 1 
+Average Mark: 3
+Group :BI
+ID: 69 -- Кириленко Фадей Изяславович
+Number of marks: 6
+Marks: 4 4 3 1 3 1 
+Average Mark: 2.66667
+Group :BI
+ID: 70 -- Илюшин Гавриил Ипатович
+Number of marks: 6
+Marks: 4 3 3 5 3 1 
+Average Mark: 3.16667
+Group :BI
+ID: 71 -- Данилов Рубен Тихонович
+Number of marks: 6
+Marks: 4 5 4 3 2 2 
+Average Mark: 3.33333
+Group :BI
+ID: 72 -- Щеглов Терентий Феликсович
+Number of marks: 6
+Marks: 4 3 1 4 1 2 
+Average Mark: 2.5
+Group :BI
+ID: 73 -- Лясин Иван Потапович
+Number of marks: 6
+Marks: 3 3 3 2 5 1 
+Average Mark: 2.83333
+Group :BI
+ID: 74 -- Горбачев Николай Сигизмундович
+Number of marks: 6
+Marks: 3 1 4 5 1 1 
+Average Mark: 2.5
+Group :BI
+ID: 77 -- Рамазанов Владислав Иосифович
+Number of marks: 6
+Marks: 5 1 2 5 4 3 
+Average Mark: 3.33333
+Group :BI
+ID: 78 -- Дроков Платон Елизарович
+Number of marks: 6
+Marks: 2 2 4 4 2 5 
+Average Mark: 3.16667
+Group :BI
+ID: 79 -- Камкин Сократ Ильевич
+Number of marks: 6
+Marks: 4 5 5 3 1 3 
+Average Mark: 3.5
+Group :BI
+ID: 81 -- Бялик Ян Евстафиевич
+Number of marks: 6
+Marks: 2 3 4 4 5 5 
+Average Mark: 3.83333
+Group :BI
+ID: 82 -- Невьянцев Семён Мартьянович
+Number of marks: 6
+Marks: 3 2 1 3 3 5 
+Average Mark: 2.83333
+Group :BI
+ID: 83 -- Вахров Ипполит Всеволодович
+Number of marks: 6
+Marks: 1 3 5 4 4 1 
+Average Mark: 3
+Group :BI
+ID: 84 -- Куклов Андрон Левович
+Number of marks: 6
+Marks: 3 3 4 2 3 2 
+Average Mark: 2.83333
+Group :BI
+ID: 87 -- Поварницын Федосий Гордеевич
+Number of marks: 6
+Marks: 4 1 1 5 4 4 
+Average Mark: 3.16667
+Group :BI
+ID: 88 -- Мухоморов Кузьма Натанович
+Number of marks: 6
+Marks: 1 2 3 5 1 4 
+Average Mark: 2.66667
+Group :BI
+ID: 89 -- Кокоткин Кир Андронович
+Number of marks: 6
+Marks: 4 4 1 3 3 1 
+Average Mark: 2.66667
+Group :BI
+ID: 90 -- Луговой Тит Ростиславович
+Number of marks: 6
+Marks: 4 5 4 1 3 5 
+Average Mark: 3.66667
+Group :BI
+ID: 91 -- Косяк Валентин Эрнестович
+Number of marks: 6
+Marks: 3 4 4 3 2 1 
+Average Mark: 2.83333
+Group :BI
